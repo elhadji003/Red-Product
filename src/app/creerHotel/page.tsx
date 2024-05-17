@@ -21,7 +21,7 @@ import {
   StyledSubmitCreer,
   FlexEnd,
   SpanAjouterPhoto
-} from "../creerHotel/CreerStyle";
+} from "./CreerStyle";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -79,7 +79,7 @@ const CreerHotel = () => {
         </Footer>
              <FlexEnd>
              <Link href="/dashboard">
-              <StyledSubmitCreer type="submit">Se connecter</StyledSubmitCreer>
+              <StyledSubmitCreer>Se connecter</StyledSubmitCreer>
             </Link>
              </FlexEnd>
       </Card>
